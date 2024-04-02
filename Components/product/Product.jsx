@@ -1,9 +1,9 @@
-import React from 'react';
+// import React from 'react';
 import "./Product.css"
 
 const Product = (props) => {
     
-    const { img, name, price, shipping, quantity, seller } = props.product;
+    const { img, name, price, shipping, seller } = props.product;
 
     const handleAddToCart= props.handleAddToCart;
 
